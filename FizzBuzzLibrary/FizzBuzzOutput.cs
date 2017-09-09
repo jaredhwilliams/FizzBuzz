@@ -8,7 +8,7 @@ namespace FizzBuzz.Library
 {
     public class FizzBuzzOutput
     {
-        public IEnumerable<string> GetFizzBuzzOutput(List<KeyValuePair<int, string>> pairs, int upperBound)
+        public IEnumerable<string> GetFizzBuzzOutput(IList<KeyValuePair<int, string>> pairs, int upperBound)
         {
             for (int i = 1; i <= upperBound; ++i)
             {
