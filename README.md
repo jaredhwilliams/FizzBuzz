@@ -7,9 +7,9 @@ This is a FizzBuzz style programming exercise in C#. It has the following requir
 3. The client application should be able to provide an upper bound up to int.MaxValue.
 4. The FizzBuzz library should be callable from .NET client applications of any type (e.g. web apps, mobile apps, console apps, etc.).
 5. The FizzBuzz library should have relevant unit tests using the NUnit framework.
-6. The source should stored in a Git repository and be hosted on Github. 
+6. The source should be stored in a Git repository and be hosted on Github. 
 7. The repository should contain an automated build script that builds the solution and runs the unit tests. 
-8. The repository should be integrated with a CI server to kick off automated builds/tests, notifications, viewing of build status and history etc. 
+8. The repository should be integrated with a CI server to kick off automated builds/tests, send notifications, allow viewing of build status/history, etc. 
 
 # Built With
 * [NUnit](http://nunit.org/) (requirement #5 above)
