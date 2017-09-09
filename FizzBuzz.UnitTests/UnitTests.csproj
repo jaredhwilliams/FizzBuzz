@@ -54,7 +54,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FizzBuzz.Library\FizzBuzzOutputterTest.cs" />
+    <Compile Include="FizzBuzz.Library\FizzBuzzOutputTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

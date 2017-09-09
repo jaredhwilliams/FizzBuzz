@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace UnitTests.FizzBuzz.Library
 {
     [TestFixture]
-    public class FizzBuzzOutputterTest
+    public class FizzBuzzOutputTest
     {
         [Test]
         public void GetFizzBuzzOutputWithPairs3Fizz5BuzzAndUpperBound15ShouldReturnCorrectOutput()
