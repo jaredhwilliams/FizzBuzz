@@ -55,6 +55,12 @@ Task("Run-Unit-Tests")
     NUnit3("./**/bin/" + configuration + "/*.UnitTests.dll", new NUnit3Settings {
         NoResults = false
         });
+	
+	if(BuildSystem.IsRunningOnAppVeyor)
+	{
+		// Upload artifact to AppVeyor.
+		BuildSystem.AppVeyor.UploadTestResults("./TestResult.xml", AppVeyorTestResultsType.NUnit3);
+	}
 });
 
 //////////////////////////////////////////////////////////////////////
