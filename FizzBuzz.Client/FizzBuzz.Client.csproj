@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FizzBuzzLibrary\FizzBuzz.Library.csproj">
+    <ProjectReference Include="..\FizzBuzz.Library\FizzBuzz.Library.csproj">
       <Project>{5578beb0-a1eb-4144-9266-69421312417c}</Project>
       <Name>FizzBuzz.Library</Name>
     </ProjectReference>

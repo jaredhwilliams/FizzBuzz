@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Client", "FizzBuzz\FizzBuzz.Client.csproj", "{1348B1E7-8661-42BB-AA52-F5E70435E778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Client", "FizzBuzz.Client\FizzBuzz.Client.csproj", "{1348B1E7-8661-42BB-AA52-F5E70435E778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Library", "FizzBuzzLibrary\FizzBuzz.Library.csproj", "{5578BEB0-A1EB-4144-9266-69421312417C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Library", "FizzBuzz.Library\FizzBuzz.Library.csproj", "{5578BEB0-A1EB-4144-9266-69421312417C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "FizzBuzz.UnitTests\UnitTests.csproj", "{7FED05AE-0E03-46D4-BC2A-2D6EEC65E51B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{7FED05AE-0E03-46D4-BC2A-2D6EEC65E51B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
