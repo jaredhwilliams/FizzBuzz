@@ -5,7 +5,7 @@ This is a FizzBuzz style programming exercise in C#. It has the following requir
 1. The client application should be able to provide their own list of divisor to word pairs.
 2. The client application should be able to provide as many pairs as they want.
 3. The client application should be able to provide an upper bound up to int.MaxValue.
-4. The FizzBuzz library should be callable from .NET client applications of any type (e.g. web apps, mobile apps, console apps, etc.).
+4. The FizzBuzz library should be callable from .NET client applications of any type (e.g. web apps, mobile apps, console apps, etc.). Note: The sample client provided in this repository is a console application.
 5. The FizzBuzz library should have relevant unit tests using the NUnit framework.
 6. The source should be stored in a Git repository and be hosted on Github. 
 7. The repository should contain an automated build script that builds the solution and runs the unit tests. 
@@ -20,3 +20,9 @@ This is a FizzBuzz style programming exercise in C#. It has the following requir
 * [Shouldly](https://github.com/shouldly/shouldly)
 * [GitHub Visual Studio Extension](https://visualstudio.github.com/)
 * [AxoCover Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=axodox1.AxoCover)
+
+# Building Locally
+To build and run the unit tests locally:
+1. Download the source to a directory on your local machine (i.e. git clone ...)
+2. Navigate to the source directory
+3. Run the powershell build script (i.e. .\build.ps1)
